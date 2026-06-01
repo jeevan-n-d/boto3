@@ -1,5 +1,7 @@
 def lambda_handler(event, context):
 
+    print("Name: ", event['name'])
+
     print("Function Name:", context.function_name)
 
     print("Function Version:", context.function_version)
